@@ -11,7 +11,13 @@ async def lifespan(app):
     yield
 
 app = FastAPI(title='TeddyPups API', version='1.0.0', lifespan=lifespan)
-app.add_middleware(CORSMiddleware, allow_origins=CORS_ORIGINS, allow_methods=['GET','POST'], allow_headers=['Content-Type'])
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=CORS_ORIGINS,
+    allow_origin_regex=r"https://.*\.vercel\.app",
+    allow_methods=['GET', 'POST', 'OPTIONS'],
+    allow_headers=['*'],
+)
 app.include_router(catalog.router,prefix='/api/v1')
 app.include_router(enquiries.router,prefix='/api/v1')
 @app.get('/api/v1/health')
