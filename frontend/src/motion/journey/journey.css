@@ -1,0 +1,17 @@
+/* Scoped to Home. The travelling rig and scene props share the same coordinate system. */
+.home-journey{position:relative;isolation:isolate;overflow:clip}
+.home-journey .journey-dog{position:absolute;top:0;left:0;width:clamp(110px,12vw,166px);z-index:8;pointer-events:none;visibility:hidden;transform-origin:50% 92%;will-change:transform;filter:drop-shadow(0 4px 6px rgba(42, 23, 14, 0.18))}
+.home-journey .journey-dog svg{width:100%;height:auto;display:block;overflow:visible}
+.home-journey .journey-peek-lip{display:none !important}
+.home-journey .journey-flight{width:min(100%,660px);margin:20px auto 0;padding:0 8px;color:var(--muted);pointer-events:none}
+.home-journey .journey-flight svg{display:block;width:100%;height:auto;overflow:visible}
+.home-journey .journey-basket-space{position:relative;min-height:clamp(190px,20vw,260px);width:100%;max-width:var(--max);margin:0}
+.home-journey .journey-basket{position:absolute;left:clamp(20px,6vw,90px);bottom:14px;width:clamp(200px,24vw,300px);aspect-ratio:260/170;pointer-events:none}
+.home-journey .journey-basket img{position:absolute;inset:0;width:100%;height:100%;max-width:none;margin:0;display:block}
+.home-journey .journey-basket-back{z-index:1}.home-journey .journey-basket-front{z-index:4}
+.home-journey .journey-basket-caption{position:absolute;bottom:-24px;left:0;right:0;font-size:1.45rem;text-align:left;padding-left:12px;color:#2a170e;font-family:'Shantell Sans',cursive;z-index:5}
+.home-journey .final-cta{padding-bottom:40px}
+.home-journey .final-basket-wrap{justify-content:flex-start;padding-left:0}
+.home-journey .journey-basket{left:0}
+@media(max-width:760px){.home-journey .journey-dog{width:clamp(90px,24vw,120px)}.home-journey .journey-basket-space{min-height:185px}.home-journey .journey-basket{width:200px;left:0;bottom:18px}.home-journey .journey-flight{margin-top:12px}.home-journey .final-cta{padding-bottom:50px}}
+@media(prefers-reduced-motion:reduce){.home-journey .journey-peek-lip{display:none}.home-journey .journey-dog{will-change:auto}}

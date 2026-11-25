@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 190" fill="none" stroke="#422a22" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round">
+<g id="dog-tail"><path fill="#dba36b" d="M64 100Q18 91 21 52Q29 31 43 50Q39 71 75 78Z"/></g>
+<g id="dog-back-leg"><path fill="#c38955" d="M76 124Q54 134 56 161L84 161Q93 155 81 149L95 126Z"/></g>
+<g id="dog-front-leg"><path fill="#c38955" d="M167 119L175 160Q192 166 200 157L190 122Z"/></g>
+<path fill="#e9b47b" d="M65 84Q84 65 114 77Q150 66 179 91Q198 114 173 138Q137 157 99 139Q61 139 59 109Q53 95 65 84Z"/>
+<g id="dog-near-back"><path fill="#e9b47b" d="M94 119Q108 139 94 163Q84 174 64 165Q60 155 76 151L75 129"/></g>
+<g id="dog-near-front"><path fill="#e9b47b" d="M156 120Q151 142 161 164Q171 173 190 164Q194 155 177 151L181 126"/></g>
+<g id="dog-head"><path fill="#bd8050" d="M156 46Q137 35 124 56Q111 79 126 106Q143 123 155 95"/><path fill="#e9b47b" d="M150 41Q159 20 185 27Q207 16 221 39Q244 42 242 66Q258 89 237 106Q220 123 190 115Q157 121 141 96Q126 73 150 41Z"/><path fill="#bd8050" d="M224 43Q245 36 251 66Q259 96 241 104Q223 106 219 83Z"/><path fill="#f9d9ac" d="M176 85Q191 68 214 85Q232 106 207 112Q177 113 176 85Z"/><ellipse cx="171" cy="70" rx="4" ry="6" fill="#422a22"/><ellipse cx="211" cy="69" rx="4" ry="6" fill="#422a22"/><path fill="#422a22" d="M189 86Q198 81 207 86Q209 93 198 96Q187 93 189 86Z"/><path d="M198 96V101Q190 107 185 101M198 101Q207 107 213 100"/><path d="M159 43q8-8 15-4M184 35q10-7 18 1"/><path fill="#ef8976" d="M146 104Q180 118 217 114L215 123Q180 130 151 115Z"/><circle cx="183" cy="127" r="7" fill="#f6d37c"/></g>
+</svg>
